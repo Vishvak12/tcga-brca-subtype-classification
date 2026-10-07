@@ -1,0 +1,29 @@
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Local datasets and generated training artifacts
+/data/
+/logs/
+*.npy
+*.npz
+*.pkl
+*.joblib
+*.pt
+*.pth
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+.aws/
+.codex/
+.agents/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
